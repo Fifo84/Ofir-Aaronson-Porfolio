@@ -1,0 +1,134 @@
+.skills {
+  color: white;
+}
+
+.cards-container {
+  font-family: consolas;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this value as needed */
+}
+
+.wrapper {
+  /* width: 1000px; */
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 0 20px;
+}
+
+.wrapper .skills-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.wrapper .skills-card .face {
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.wrapper .skills-card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(150px);
+}
+
+.wrapper .skills-card:hover .face.face1 {
+  background: #00abf0;
+  transform: translateY(0);
+}
+
+.wrapper .skills-card .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.wrapper .skills-card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.wrapper .skills-card .face.face1 .content img {
+  max-width: 100px;
+}
+
+.wrapper .skills-card .face.face1 .content h3 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.wrapper .skills-card .face.face2 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-150px);
+}
+
+.wrapper .skills-card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.wrapper .skills-card .face.face2 .content {
+  max-height: 298px;
+  overflow-y: auto;
+}
+
+.wrapper .skills-card .face.face2 .content h4 {
+  color: #00abf0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.wrapper .skills-card .face.face2 .content p {
+  margin: 10px 10px;
+  padding: 0;
+  color: white;
+}
+
+.container .skills-card .face.face2 .content a {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+
+@media screen and (max-width: 1050px) {
+  .cards-container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    align-items: center; /* Center-align cards */
+    height: auto; /* Remove fixed height on smaller screens */
+  }
+
+  .wrapper {
+    flex-direction: column; /* Stack card pairs vertically */
+    gap: 20px; /* Reduce gap between card pairs */
+    padding: 20px; /* Add some padding to separate cards from edges */
+  }
+
+  .skills-card {
+    width: 100%; /* Make cards take full width on smaller screens */
+  }
+
+  .face.face1,
+  .face.face2 {
+    width: 100%; /* Make card faces take full width on smaller screens */
+  }
+}

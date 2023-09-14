@@ -1,0 +1,362 @@
+.projects {
+  padding: 5rem 0;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 15rem;
+}
+
+.projects .item:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.projects .item .left {
+  flex: 1;
+}
+
+.projects .item .right {
+  margin-left: -100px;
+  flex: 1;
+  background-color: #d7c7c7;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00000028;
+  z-index: 2;
+}
+
+.projects .item:nth-child(even) .right {
+  margin-left: 0;
+}
+
+.projects .item:nth-of-type(even) .left {
+  margin-left: -150px;
+}
+
+.projects .item .left .img {
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #4705fc33;
+  position: relative;
+}
+
+.projects .item .left .img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.projects .item .left .img img {
+  object-fit: cover;
+  transition: 0.3s ease transform;
+}
+.projects .item:hover .left .img img {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.projects .item .right .project-title {
+  font-size: 2rem;
+  font-family: "Inter";
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.projects .item .right .project-sub-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.projects .item .right .project-desc {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.primary-btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 50px;
+  background: #00abf0;
+  border: 2px solid #00abf0;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #081b29;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.primary-btn:hover {
+  color: #00abf0;
+}
+
+.primary-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.primary-btn:hover::before {
+  width: 100%;
+}
+
+.projects .item .right .external-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: calc(0.6em - 4px) calc(1.6em - 4px);
+}
+.projects .item .right .external-link svg {
+  width: 25px;
+}
+
+.projects .item .right .btn {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .projects .item {
+    flex-direction: column;
+  }
+  .projects .item .left {
+    width: 100%;
+  }
+  .projects .item .right {
+    margin-left: 0;
+    width: 90%;
+    margin-top: -150px;
+  }
+  .projects .item:nth-of-type(even) {
+    flex-direction: column;
+  }
+  .projects .item:nth-of-type(even) .left {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .projects .item .right .btn {
+    flex-direction: column;
+  }
+  .projects .item .right .btn a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Modal Styles */
+.modal {
+  opacity: 1;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 500;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.modal.fade-in {
+  opacity: 0;
+}
+
+.modal-content {
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 60%;
+  overflow-y: auto;
+  max-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-content .btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content .btn a span {
+  padding-left: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.modal-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.modal-header h3 {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.modal-body {
+  padding: 20px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.modal-body img {
+  max-width: 100%;
+  max-height: 200px;
+  margin: 0 auto;
+  display: block;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.modal-tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.modal-tech img {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .modal-content .btn {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .modal-content .btn a {
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .modal-content .btn a span {
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .modal-content {
+    max-width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  .modal-body img {
+    max-height: 200px;
+  }
+
+  .modal-content .btn {
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .modal-content .btn a {
+    font-size: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .modal-content .btn a span {
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .modal-tech img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal-content {
+    margin-top: 80px;
+    padding: 5px;
+  }
+}
