@@ -24,9 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/memory-game",
-      demoLink: "/projects/memory-game",
+      codeLink: "https://github.com/Fifo84/memory-game",
+      demoLink: "https://fifo84.github.io/memory-game/",
       downloadLink: "/projects/Memory-Game.zip",
     },
     {
@@ -44,9 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Object Oriented Programming",
         },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/gallery",
-      demoLink: "/projects/gallery/index.html",
+      codeLink: "https://github.com/Fifo84/Oop--gallery",
+      demoLink: "https://fifo84.github.io/Oop--gallery/",
       downloadLink: "/projects/Oop--Gallery.zip",
     },
     {
@@ -64,9 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Local Storage",
         },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/snake",
-      demoLink: "/projects/snake/index.html",
+      codeLink: "https://github.com/Fifo84/snake",
+      demoLink: "https://fifo84.github.io/snake/",
       downloadLink: "/projects/Snake.zip",
     },
     {
@@ -81,9 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
         { src: "./images/tech-icons/browser_718064.png", title: "API" },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/wordle",
-      demoLink: "/projects/wordle/index.html",
+      codeLink: "https://github.com/Fifo84/country-wordle",
+      demoLink: "https://fifo84.github.io/country-wordle/",
       downloadLink: "/projects/Country-Wordle.zip",
     },
     {
@@ -104,8 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Local Storage",
         },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/to-do-list/To-Do-List",
+      codeLink: "https://github.com/Fifo84/to-do-list",
       demoLink: "/projects/to-do-list/To-Do-List/index.html",
       downloadLink: "/projects/To-Do-List.zip",
     },
@@ -121,9 +116,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/calculator",
-      demoLink: "/projects/calculator/index.html",
+      codeLink: "https://github.com/Fifo84/calculator",
+      demoLink: "https://fifo84.github.io/calculator/",
       downloadLink: "/projects/Calculator.zip",
     },
     {
@@ -137,9 +131,8 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
       ],
-      codeLink:
-        "https://github.com/Fifo84/portfolio-Ofir-Aaronson/tree/main/projects/form-valdidation",
-      demoLink: "/projects/form-valdidation/index.html",
+      codeLink: "https://github.com/Fifo84/form-valdidation",
+      demoLink: "https://fifo84.github.io/form-valdidation/",
       downloadLink: "/projects/Form-Valdidation.zip",
     },
   ];
