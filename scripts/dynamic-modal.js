@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "To do list",
       subtitle: "Organize Tasks with Ease",
       description:
-        "This project is built using HTML, CSS, and TypeScript, and it features a responsive user interface. Users can add tasks, distinguish between regular and important tasks, edit task names, delete individual tasks, and clear the entire task list. The app also provides visual feedback for empty task names. Additionally, users can save all tasks to local storage and retrieve them on subsequent visits to the app.",
+        "This project is built using HTML, CSS, and TypeScript, and it features a responsive user interface. Users can add tasks, distinguish between regular and important tasks, edit task names, delete individual tasks, and clear the entire task list. The app also provides visual feedback for empty task names and adds a time stamp recording the dates of each task. Additionally, users can save all tasks to local storage and retrieve them on subsequent visits to the app.",
       technologies: [
         { src: "./images/tech-icons/html-5_5968267.png", title: "HTML" },
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
