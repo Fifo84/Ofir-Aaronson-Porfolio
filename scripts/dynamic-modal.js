@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       ],
       codeLink: "https://github.com/Fifo84/to-do-list",
-      demoLink: "/projects/to-do-list/To-Do-List/index.html",
+      demoLink: "https://fifo84.github.io/to-do-list/",
       downloadLink: "/projects/To-Do-List.zip",
     },
 
