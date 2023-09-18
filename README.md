@@ -19,7 +19,7 @@ Ofir-Aaronson Portfolio
 
 💡 Whether you're looking to collaborate on exciting projects, discuss technology trends, or simply connect with fellow developers, I'm always open to new opportunities and connections. Feel free to reach out via email or connect with me on LinkedIn.
 
-🌐 Visit my [portfolio website](https://www.yourportfoliosite.com) to learn more about me and my journey as a developer.
+🌐 Visit my [portfolio website](https://fifo84.github.io/Ofir-Aaronson-Porfolio/) to learn more about me and my journey as a developer.
 
 ## description
 
