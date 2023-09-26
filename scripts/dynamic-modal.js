@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
         {
-          src: "/images/tech-icons/local storage.png",
+          src: "/images/tech-icons/local-storage.png",
           title: "Local Storage",
         },
       ],
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Type Script",
         },
         {
-          src: "./images/tech-icons/local storage.png",
+          src: "./images/tech-icons/local-storage.png",
           title: "Local Storage",
         },
       ],

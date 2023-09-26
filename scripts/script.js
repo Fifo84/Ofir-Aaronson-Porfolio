@@ -1,6 +1,7 @@
 const navElem = document.querySelector(".nav");
 const hamburgerElem = document.querySelector(".hamburger");
 const navLinks = document.querySelectorAll(".nav_link");
+const sections = document.querySelectorAll("section");
 
 hamburgerElem.addEventListener("click", () => {
   navElem.classList.toggle("nav--open");
@@ -47,8 +48,6 @@ const observer = new IntersectionObserver(handleIntersection, {
   rootMargin: "0px",
   threshold: 0.1,
 });
-
-const sections = document.querySelectorAll("section");
 
 sections.forEach((section) => {
   observer.observe(section);
