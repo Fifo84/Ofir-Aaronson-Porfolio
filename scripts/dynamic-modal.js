@@ -184,7 +184,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Close the modal when the user presses the Escape key
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
       closeModal();

@@ -157,6 +157,11 @@ ul {
   animation-delay: 0.4s;
 }
 
+.nav_item .active {
+  color: yellow;
+  font-weight: bold;
+}
+
 /* --------------------HOME------------------------------ */
 
 .home {

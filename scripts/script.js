@@ -17,3 +17,19 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   e.target.elements.email.value = "";
   e.target.elements.message.value = "";
 });
+
+// Get all the navigation links
+const navLinks = document.querySelectorAll(".nav_link");
+
+// Add click event listeners to each link
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    // Remove the 'active' class from all links
+    navLinks.forEach((navLink) => {
+      navLink.classList.remove("active");
+    });
+
+    // Add the 'active' class to the clicked link
+    link.classList.add("active");
+  });
+});
