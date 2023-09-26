@@ -28,3 +28,28 @@ navLinks.forEach((link) => {
     link.classList.add("active");
   });
 });
+
+function handleIntersection(entries) {
+  entries.forEach((entry) => {
+    const id = entry.target.getAttribute("id");
+    if (entry.isIntersecting) {
+      navLinks.forEach((navLink) => {
+        navLink.classList.remove("active");
+      });
+
+      document.querySelector(`a[href="#${id}"]`).classList.add("active");
+    }
+  });
+}
+
+const observer = new IntersectionObserver(handleIntersection, {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.1,
+});
+
+const sections = document.querySelectorAll("section");
+
+sections.forEach((section) => {
+  observer.observe(section);
+});
