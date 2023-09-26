@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
         {
-          src: "/images/tech-icons/local-storage.png",
+          src: "./images/tech-icons/local-storage.png",
           title: "Local Storage",
         },
       ],
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/html-5_5968267.png", title: "HTML" },
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         {
-          src: "/images/tech-icons/icons8-typescript-48.png",
+          src: "./images/tech-icons/icons8-typescript-48.png",
           title: "Type Script",
         },
         {

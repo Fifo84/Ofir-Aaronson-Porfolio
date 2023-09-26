@@ -16,6 +16,7 @@ footer img {
 
 footer h4 {
   font-size: 20px;
+  color: #00abf0;
 }
 
 @media screen and (max-width: 480px) {
