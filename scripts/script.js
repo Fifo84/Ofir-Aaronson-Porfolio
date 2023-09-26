@@ -1,5 +1,6 @@
 const navElem = document.querySelector(".nav");
 const hamburgerElem = document.querySelector(".hamburger");
+const navLinks = document.querySelectorAll(".nav_link");
 
 hamburgerElem.addEventListener("click", () => {
   navElem.classList.toggle("nav--open");
@@ -18,18 +19,12 @@ document.querySelector("#contact-form").addEventListener("submit", (e) => {
   e.target.elements.message.value = "";
 });
 
-// Get all the navigation links
-const navLinks = document.querySelectorAll(".nav_link");
-
-// Add click event listeners to each link
 navLinks.forEach((link) => {
   link.addEventListener("click", () => {
-    // Remove the 'active' class from all links
     navLinks.forEach((navLink) => {
       navLink.classList.remove("active");
     });
 
-    // Add the 'active' class to the clicked link
     link.classList.add("active");
   });
 });
