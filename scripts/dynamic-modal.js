@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/Oop--gallery",
       demoLink: "https://fifo84.github.io/Oop--gallery/",
-      downloadLink: "./projects/Oop--Gallery.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects//Oop--Gallery.zip",
     },
     {
       imageSrc: "./images/projects-images/snake-game-image.JPG",
@@ -65,7 +66,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/snake",
       demoLink: "https://fifo84.github.io/snake/",
-      downloadLink: "./projects/Snake.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Snake.zip",
     },
     {
       imageSrc: "./images/projects-images/wordle-image.JPG",
@@ -81,7 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/country-wordle",
       demoLink: "https://fifo84.github.io/country-wordle/",
-      downloadLink: "./projects/Country-Wordle.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Country-Wordle.zip",
     },
     {
       imageSrc: "./images/projects-images/to-do-list-image.JPG",
@@ -103,7 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/to-do-list",
       demoLink: "https://fifo84.github.io/to-do-list/",
-      downloadLink: "./projects/To-Do-List.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/To-Do-List.zip",
     },
 
     {
@@ -119,7 +123,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/calculator",
       demoLink: "https://fifo84.github.io/calculator/",
-      downloadLink: "./projects/Calculator.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Calculator.zip",
     },
     {
       imageSrc: "./images/projects-images/form-validation-image.JPG",
@@ -134,7 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/form-valdidation",
       demoLink: "https://fifo84.github.io/form-valdidation/",
-      downloadLink: "./projects/Form-Valdidation.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Form-Valdidation.zip",
     },
   ];
 
