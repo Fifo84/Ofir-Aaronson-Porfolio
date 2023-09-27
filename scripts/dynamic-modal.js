@@ -46,7 +46,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/Oop--gallery",
       demoLink: "https://fifo84.github.io/Oop--gallery/",
-      downloadLink: "../projects/Oop--Gallery.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects//Oop--Gallery.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/snake-game-image.JPG",
