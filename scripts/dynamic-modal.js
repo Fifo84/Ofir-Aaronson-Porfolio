@@ -26,7 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       codeLink: "https://github.com/Fifo84/memory-game",
       demoLink: "https://fifo84.github.io/memory-game/",
-      downloadLink: "./projects/Memory-Game.zip",
+      downloadLink:
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Memory-Game.zip",
     },
     {
       imageSrc: "./images/projects-images/oop-gallery-image.JPG",
