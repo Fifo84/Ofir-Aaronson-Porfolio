@@ -137,10 +137,10 @@ document.addEventListener("DOMContentLoaded", () => {
         { src: "./images/tech-icons/css-3_5968242.png", title: "CSS" },
         { src: "./images/tech-icons/js-icon.png", title: "java Script" },
       ],
-      codeLink: "https://github.com/Fifo84/form-valdidation",
-      demoLink: "https://fifo84.github.io/form-valdidation/",
+      codeLink: "https://github.com/Fifo84/form-validation",
+      demoLink: "https://fifo84.github.io/form-validation/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Form-Valdidation.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Form-Validation.zip",
     },
   ];
 
