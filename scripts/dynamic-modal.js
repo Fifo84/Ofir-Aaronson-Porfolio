@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/memory-game",
       demoLink: "https://fifo84.github.io/memory-game/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Memory-Game.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Memory-Game.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/oop-gallery-image.JPG",
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/Oop--gallery",
       demoLink: "https://fifo84.github.io/Oop--gallery/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects//Oop--Gallery.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects//Oop--Gallery.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/snake-game-image.JPG",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/snake",
       demoLink: "https://fifo84.github.io/snake/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Snake.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Snake.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/wordle-image.JPG",
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/country-wordle",
       demoLink: "https://fifo84.github.io/country-wordle/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Country-Wordle.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Country-Wordle.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/to-do-list-image.JPG",
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/to-do-list",
       demoLink: "https://fifo84.github.io/to-do-list/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/To-Do-List.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/To-Do-List.zip?raw=true",
     },
 
     {
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/calculator",
       demoLink: "https://fifo84.github.io/calculator/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Calculator.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Calculator.zip?raw=true",
     },
     {
       imageSrc: "./images/projects-images/form-validation-image.JPG",
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
       codeLink: "https://github.com/Fifo84/form-validation",
       demoLink: "https://fifo84.github.io/form-validation/",
       downloadLink:
-        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Form-Validation.zip",
+        "https://github.com/Fifo84/Ofir-Aaronson-Portfolio/tree/main/projects/Form-Validation.zip?raw=true",
     },
   ];
 
